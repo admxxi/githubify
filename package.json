@@ -1,0 +1,30 @@
+{
+  "name": "github-digest",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/query-persist-client-core": "^5.100.10",
+    "@tanstack/query-sync-storage-persister": "^5.100.10",
+    "@tanstack/vue-query": "^5.74.4",
+    "@types/dompurify": "^3.0.5",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.11.3",
+    "dompurify": "^3.4.3",
+    "marked": "^18.0.3",
+    "pinia": "^2.3.1",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.1.0",
+    "vite-plugin-pwa": "^0.21.1",
+    "vue-tsc": "^2.2.0"
+  }
+}
