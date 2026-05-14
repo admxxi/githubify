@@ -5,7 +5,6 @@ import { persistQueryClient } from '@tanstack/query-persist-client-core'
 import { createSyncStoragePersister } from '@tanstack/query-sync-storage-persister'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-import 'bootstrap'
 import App from './App.vue'
 
 const GC_TIME = 1000 * 60 * 60 * 24 // 24 hours
